@@ -1,0 +1,47 @@
+.nav {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../img/landing.jpg);
+  background-size: cover;
+}
+.nav .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav .text h1 {
+  text-align: center;
+  color: black;
+}
+
+.nav .text p {
+  text-align: center;
+  color: #777;
+}
+.nav .links {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav .links a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  border-radius: 9px;
+  text-align: center;
+  padding: 2px;
+}
+.nav .links a.one{
+background-color: rgb(224, 188, 28);
+font-weight: 600;
+}
+.nav .links a.two{
+  background-color: rgb(19, 193, 236);
+  font-weight: 600;
+}
+

@@ -1,0 +1,43 @@
+body {
+  background-image: url(matrouh.jpg);
+  background-repeat: no-repeat;
+  background-size: 129%;
+}
+div.text {
+  position: absolute;
+}
+div.text p {
+  position: relative;
+  line-height: 3em;
+  text-align: right;
+  color: white;
+  transform: translate(-70px, 82px);
+  padding-left: 110px;
+  font-size: 20px;
+}
+div.text h1 {
+  position: relative;
+  text-align: right;
+  transform: translate(10px, 100px);
+  right: 8%;
+  color: black;
+}
+div.link {
+  position: absolute;
+  top: 80%;
+  right: 46%;
+}
+div.link a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(9, 178, 190);
+  display: inline-block;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  padding: 3px;
+  font-weight: 700;
+  font-size: 100%;
+  border-radius: 9px;
+}
